@@ -12,11 +12,10 @@ header h1 {font-size: 2rem; margin-bottom: .5rem;}
 header p {margin: .25rem 0;}
 
 /* 2. navigation */
-nav .container {
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;   /* 链接居中排布 */
-  padding: .6rem 0;
+nav {
+  max-width: 880px;   /* 跟 main 一样宽 */
+  margin: 0 auto;     /* 同水平居中 */
+  padding: 0 1rem;    /* 保持左右内边距与 main 一致 */
 }
 
 /* 3. main */
