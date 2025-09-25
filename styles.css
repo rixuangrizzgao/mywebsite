@@ -11,15 +11,23 @@ header {text-align: center; padding: 3rem 1rem 2rem;}
 header h1 {font-size: 2rem; margin-bottom: .5rem;}
 header p {margin: .25rem 0;}
 
-/* 2. main */
+/* 2. navigation */
+nav .container {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;   /* 链接居中排布 */
+  padding: .6rem 0;
+}
+
+/* 3. main */
 main {max-width: 800px; margin: 0 auto; padding: 0 1rem 3rem;}
 section {margin-bottom: 2rem;}
 h2 {border-bottom: 1px solid #ddd; padding-bottom: .3rem; margin-bottom: .8rem;}
 
-/* 3. cards (for recent.html) */
+/* 4. cards (for recent.html) */
 .cards article {background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem;}
 time {font-weight: bold; color: #555;}
 .cards h2 {margin: .5rem 0 .3rem; border: none;}
 
-/* 4. footer */
+/* 5. footer */
 footer {text-align: center; padding: 2rem 1rem; font-size: .85rem; color: #666;}
