@@ -12,7 +12,7 @@ header h1 {font-size: 2rem; margin-bottom: .5rem;}
 header p {margin: .25rem 0;}
 
 ul.indent-whole {margin-left: 2em;}
-img {max-width: 70%; height: auto;}
+img {max-width: 50%; height: auto;}
 
 /* 2. navigation */
 nav {
